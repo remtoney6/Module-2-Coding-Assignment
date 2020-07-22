@@ -1,75 +1,27 @@
-* {
-	box-sizing: border-box;
-}
-
-h1, div {
-	font-family: comic sans ms, sans-serif;
-}
-
-h1 {
-	text-align: center;
-	font-size: 175%;
-}
-
-div {
-	background-color: #93908F;
-	border: 1px solid black;
-}
-
-#p1, #p2, #p3 {
-	float: left;
-	position: relative;
-}
-
-@media (min-width: 992px) {
-	#p1, #p2, #p3 {
-		width: 31%;
-		margin: 1.1%;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	#p1, #p2 {
-		width: 48.6%;
-		margin: 0.7%;
-	}
-
-	#p3 {
-		width: 98.6%;
-		margin: 0.7%;
-	}
-}
-
-@media (max-width: 767px) {
-	#p1, #p2, #p3 {
-		width: 98%;
-		margin: 0.7%;
-	}
-}
-
-#chicken, #beef, #sushi {
-	float: right;
-	width: 30%;
-	text-align: center;
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 125%;
-	padding: 5px 5px;
-	margin-bottom: 5px;
-}
-
-#chicken {
-	background-color: #DEA795;
-}
-
-#beef {
-	background-color: #AD4726;
-	color: white;
-}
-
-#sushi {
-	background-color: #F2DF93;
-}
-
-p {
-	clear: right;
-}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="CSS/mod2.css">
+	<title>Module 2 Assignment</title>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div id="p1">
+		<div id="chicken">Chicken</div>
+		<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+	</div>
+	<div id="p2">
+		<div id="beef">Beef</div>
+		<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+	</div>
+	<div id="p3">
+		<div id="sushi">Sushi</div>
+		<p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+	</div>
+</body>
+</html>
