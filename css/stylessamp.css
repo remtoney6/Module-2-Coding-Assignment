@@ -1,0 +1,31 @@
+.line {
+	margin: 0px -15px 0px -15px;
+	border: 2px solid black;
+	border-top: none;
+	text-decoration: none;
+}
+
+a:-webkit-any-link {
+	color: black;
+}
+body {
+	font-family: comic sans ms, sans serif;
+}
+
+
+.navbar-dark .navbar-brand {
+	color: black;
+}
+
+.row-content {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.menu {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.column {
+	margin: 30px;
+}
